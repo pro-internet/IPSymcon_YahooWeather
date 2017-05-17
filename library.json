@@ -3,10 +3,7 @@
     "author": "prointernet",
     "name": "YahooWeather",
     "url": "www.prointernet.de",
-    "version": "1.0.1",
+    "version": "1.0",
     "build": 0,
-    "title": "Yahoo Weather Module",
-    "description": "Get Yahoo Weather Values",
-    "tags": ["Yahoo", "Weather", "Module"],
-    "req_ips_version": "4.0"
+    "date": 0
 }
