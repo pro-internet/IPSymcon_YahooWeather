@@ -32,7 +32,7 @@
             $zipcode    = $this->ReadPropertyString("Zipcode");
             $degree     = $this->ReadPropertyString("Degree");
 
-            $result = file_get_contents('http://weather.yahooapis.com/forecastrss?p=' . $zipcode . '&u=' . $degree);
+            $result = file_get_contents('http://weather.yahooapis.com/forecastrss?p=55483' . $zipcode . '&u=c' . $degree);
             $xml = simplexml_load_string($result);
             //echo htmlspecialchars($result, ENT_QUOTES, 'UTF-8');
             return $xml;
