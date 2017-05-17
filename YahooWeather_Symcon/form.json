@@ -1,26 +1,14 @@
 {
-    "elements": [{
-        "type": "List",
-        "name": "YahooWeather_Symcon",
-        "caption": "Weather:",
-        "rowCount": 1,
-        "add": true,
-        "delete": true,
-        "sort": {
-            "column": "name",
-            "direction": "ascending"
-        },
-        "columns": [{
-            "label": "Zipcode",
-            "name": "zipcode",
-            "width": "75px",
-            "add": "",
-            "edit": {
-                "type": "ValidationTextBox"
-            }
-        }],
-        "values": [{
-            "zipcode": "String"
-        }]
-    }]
+    "elements": [
+        { "type": "ValidationTextBox", "name": "Zipcode", "caption": "Zipcode" },
+        {
+            "type": "Select",
+            "name": "Degree",
+            "caption": "°F",
+            "options": [
+                { "label": "°F", "value": 0 },
+                { "label": "°C", "value": 1 }
+            ]
+        }
+    ]
 }
