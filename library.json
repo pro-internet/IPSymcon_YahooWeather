@@ -1,9 +1,12 @@
 {
     "id": "{cb33aced-d7d1-4857-867b-f5e912bf764c}",
     "author": "prointernet",
-    "name": "prointernet Library",
-    "url": "www.prointernet.de",
-    "version": "1.1",
+    "name": "YahooWeather",
+    "url": "https://github.com/pro-internet/IPSymcon_YahooWeather",
+    "version": "1.0.1",
     "build": 0,
-    "date": 0
+    "title": "Yahoo Weather Module",
+    "description": "Get Yahoo Weather Values",
+    "tags": ["Yahoo", "Weather", "Module"],
+    "req_ips_version": "4.0"
 }
