@@ -1,7 +1,7 @@
 {
     "elements": [{
         "type": "List",
-        "name": "Yahoo Weather",
+        "name": "YahooWeather",
         "caption": "Weather:",
         "rowCount": 1,
         "add": true,
