@@ -1,10 +1,10 @@
 {
     "id": "{9d85f227-d9dc-4ecd-a359-cc1c189b2478}",
-    "name": "YahooWeather",
+    "name": "YahooWeather_Symcon",
     "type": 3,
     "vendor": "prointernet",
     "aliases": [
-        "YahooWeather"
+        "YahooWeather_Symcon"
     ],
     "parentRequirements": [],
     "childRequirements": [],
