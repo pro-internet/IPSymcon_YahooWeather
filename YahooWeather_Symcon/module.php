@@ -30,8 +30,8 @@
         */
         public function getWeatherForcast() {
             // Get the Weather Forcast for the Day!
-            $zipcode    = $this->Zipcode;
-            $degree     = $this->degree;
+            $zipcode    = $this->ReadPropertyString("Zipcode");
+            $degree     = $this->ReadPropertyString("Degree");
 
             $result = file_get_contents('http://weather.yahooapis.com/forecastrss?p=' . $zipcode . '&u=' . $degree);
             $xml = simplexml_load_string($result);
