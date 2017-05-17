@@ -1,0 +1,26 @@
+{
+    "elements": [{
+        "type": "List",
+        "name": "Yahoo Weather",
+        "caption": "Weather:",
+        "rowCount": 1,
+        "add": true,
+        "delete": true,
+        "sort": {
+            "column": "name",
+            "direction": "ascending"
+        },
+        "columns": [{
+            "label": "Zipcode",
+            "name": "zipcode",
+            "width": "75px",
+            "add": "",
+            "edit": {
+                "type": "ValidationTextBox"
+            }
+        }],
+        "values": [{
+            "zipcode": "String"
+        }]
+    }]
+}
