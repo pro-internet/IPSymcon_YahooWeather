@@ -15,6 +15,9 @@
         public function Create() {
             // Diese Zeile nicht löschen.
             parent::Create();
+
+            //$this->RegisterPropertyInteger("SceneCount", 2);
+            $this->RegisterPropertyString("Zipcode", "55483");
  
         }
  
