@@ -1,6 +1,6 @@
 {
     "elements": [
-        { "type": "ValidationTextBox", "name": "Zipcode", "caption": "Zipcode" },
+        { "type": "ValidationTextBox", "name": "woeid", "caption": "woeid" },
         {
             "type": "Select",
             "name": "Degree",
