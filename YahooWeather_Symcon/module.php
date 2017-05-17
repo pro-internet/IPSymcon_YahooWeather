@@ -32,7 +32,7 @@
             $zipcode    = $this->ReadPropertyString("Zipcode");
             $degree     = $this->ReadPropertyString("Degree");
 
-            $BASE_URL = "http://query.yahooapis.com/v1/public/yql";
+            $BASE_URL = "http://www.yahooapis.com/v1/base.rng";
             $yql_query = 'select item.condition from weather.forecast where woeid = 701780';
             $yql_query_url = $BASE_URL . "?q=" . urlencode($yql_query) . "&format=json";
             // Make call with cURL
