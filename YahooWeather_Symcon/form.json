@@ -6,8 +6,8 @@
             "name": "Degree",
             "caption": "Degree",
             "options": [
-                { "label": "°F", "value": 0 },
-                { "label": "°C", "value": 1 }
+                { "label": "°F", "value": "F" },
+                { "label": "°C", "value": "C" }
             ]
         }
     ]
