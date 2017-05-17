@@ -24,11 +24,9 @@
             parent::ApplyChanges();
         }
  
-        /**
-        * ABC_MeineErsteEigeneFunktion($id);
-        */
+
+        // Get the Weather Forcast for the Day!
         public function getWeatherForcast() {
-            // Get the Weather Forcast for the Day!
             $zipcode    = $this->ReadPropertyString("Zipcode");
             $degree     = $this->ReadPropertyString("Degree");
 
