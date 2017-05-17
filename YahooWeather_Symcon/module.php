@@ -18,6 +18,7 @@
 
             //$this->RegisterPropertyInteger("SceneCount", 2);
             $this->RegisterPropertyString("Zipcode", "55483");
+            $this->RegisterPropertyInteger("Degree", 1);
  
         }
  
