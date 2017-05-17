@@ -1,0 +1,1 @@
+# Yahoo Weather module for IP Symcon
