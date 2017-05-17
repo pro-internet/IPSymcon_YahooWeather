@@ -1,6 +1,6 @@
 <?
     // Klassendefinition
-    class YahooWeather extends IPSModule {
+    class YahooWeather_Symcon extends IPSModule {
  
         // Der Konstruktor des Moduls
         // Überschreibt den Standard Kontruktor von IPS
